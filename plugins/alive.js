@@ -13,10 +13,10 @@ const alive = async (m, Matrix) => {
   if (!['alive', 'uptime', 'runtime'].includes(cmd)) return;
 
   
-  const instagram = "efkidgamer";
-  const github = "Frank kaumba";
-  const facebook = "Frank kaumba";
-  const botName = "EF-PRIME-MD";
+  const instagram = "Joshumambo1";
+  const tiktok = "Joshumambo1";
+  const facebook = "Joshumambo";
+  const botName = "Joshumambo1 NetKing";
 
   
   const apiUrl = `https://kaiz-apis.gleeze.com/api/uptime?instag=${instagram}&ghub=${github}&fb=${facebook}&hours=${hours}&minutes=${minutes}&seconds=${seconds}&botname=${botName}`;
@@ -42,8 +42,8 @@ const alive = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363419090892208@newsletter',
-          newsletterName: "EF-PRIME",
+          newsletterJid: '120363347365643318@newsletter',
+          newsletterName: "Joshumambo1 Alive",
           serverMessageId: 143
         }
       }
