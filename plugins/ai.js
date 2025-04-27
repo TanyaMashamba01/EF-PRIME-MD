@@ -26,7 +26,7 @@ const aiCommand = async (m, Matrix) => {
     const aiResponse = response.data.message || "No response received.";
     const author = response.data.author || "AI";
     
-    const formattedResponse = `*🤖 AI Response*\n\n${aiResponse}\n\n👤 *Author:* ${author}\n🔗 *Powered By EF-PRIME ✅*`;
+    const formattedResponse = `*🤖 AI Response*\n\n${aiResponse}\n\n👤 *Author:* ${author}\n🔗 *Powered By Jöṡḧüäṁäṁḅö1 ✅*`;
     
     await Matrix.sendMessage(
       m.from,
@@ -37,8 +37,8 @@ const aiCommand = async (m, Matrix) => {
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363419090892208@newsletter',
-            newsletterName: "EF-PRIME",
+            newsletterJid: '120363347365643318@newsletter',
+            newsletterName: "Joshumambo1 Alive",
             serverMessageId: 143
           }
         }
