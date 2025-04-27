@@ -30,13 +30,13 @@ const ping = async (m, Matrix) => {
 
     const responseTime = (end - start) / 1000;
 
-    const pingQuality = responseTime < 0.5 ? "PRIME HYPER" : 
+    const pingQuality = responseTime < 0.5 ? "Joshuamambo1" : 
 
-                         responseTime < 1.0 ? "PRIME ULTRA" : 
+                         responseTime < 1.0 ? "MidKingX" : 
 
-                         responseTime < 1.5 ? "PRIME PLUS" : 
+                         responseTime < 1.5 ? "Joshuamambo1 NetKing" : 
 
-                         responseTime < 2.0 ? "PRIME" : "PRIME STABLE";
+                         responseTime < 2.0 ? "ÉćőúńBáń" : "PRIME STABLE";
 
     const text = `> EF-${pingQuality}: ${responseTime.toFixed(2)}s ${reactionEmoji}`;
 
@@ -54,9 +54,9 @@ const ping = async (m, Matrix) => {
 
         forwardedNewsletterMessageInfo: {
 
-          newsletterJid: '120363419090892208@newsletter',
+          newsletterJid: '120363347365643318@newsletter',
 
-          newsletterName: "EF-PRIME",
+          newsletterName: "Jöṡḧüäṁäṁḅö1 alive",
 
           serverMessageId: 143
 
